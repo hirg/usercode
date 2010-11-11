@@ -1,8 +1,8 @@
-#ifndef HIFlowDQM_H
-#define HIFlowDQM_H
+#ifndef HICorrelationDQM_H
+#define HICorrelationDQM_H
 
 
-/** \class HIFlowDQM
+/** \class HICorrelationDQM
  *
  *  DQM Physics Module for Heavy Ion Flow group
  *
@@ -20,14 +20,14 @@ class DQMStore;
 class MonitorElement;
 
 
-class HIFlowDQM : public edm::EDAnalyzer {
+class HICorrelationDQM : public edm::EDAnalyzer {
  public:
 
   /// Constructor
-  HIFlowDQM(const edm::ParameterSet&);
+  HICorrelationDQM(const edm::ParameterSet&);
   
   /// Destructor
-  virtual ~HIFlowDQM();
+  virtual ~HICorrelationDQM();
   
   /// Inizialize parameters for histo binning
   void beginJob();

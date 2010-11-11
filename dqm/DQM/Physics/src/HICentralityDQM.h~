@@ -1,10 +1,10 @@
-#ifndef HIFlowDQM_H
-#define HIFlowDQM_H
+#ifndef HiCentralityDQM_H
+#define HiCentralityDQM_H
 
 
-/** \class HIFlowDQM
+/** \class HiCentralityDQM
  *
- *  DQM Physics Module for Heavy Ion Flow group
+ *  DQM Physics Module for Heavy Ion Centrality group
  *
  *  Based on DQM/SiPixel and DQM/Physics code
  *  Version 1.0, 7/7/10
@@ -20,14 +20,14 @@ class DQMStore;
 class MonitorElement;
 
 
-class HIFlowDQM : public edm::EDAnalyzer {
+class HiCentralityDQM : public edm::EDAnalyzer {
  public:
 
   /// Constructor
-  HIFlowDQM(const edm::ParameterSet&);
+  HiCentralityDQM(const edm::ParameterSet&);
   
   /// Destructor
-  virtual ~HIFlowDQM();
+  virtual ~HiCentralityDQM();
   
   /// Inizialize parameters for histo binning
   void beginJob();
@@ -36,7 +36,6 @@ class HIFlowDQM : public edm::EDAnalyzer {
   void analyze(const edm::Event&, const edm::EventSetup&);
 
   void endJob(void);
-
 
 
  private:

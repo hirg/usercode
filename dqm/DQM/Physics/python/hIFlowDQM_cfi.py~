@@ -1,0 +1,7 @@
+import FWCore.ParameterSet.Config as cms
+
+ellipticFlowDQM = cms.EDAnalyzer("EllipticFlowDQM",
+#   disable all warnings
+    maxNumWarnings = cms.int32(0),
+)
+

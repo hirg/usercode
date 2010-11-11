@@ -1,8 +1,8 @@
-#ifndef HIFlowDQM_H
-#define HIFlowDQM_H
+#ifndef EllipticFlowDQM_H
+#define EllipticFlowDQM_H
 
 
-/** \class HIFlowDQM
+/** \class EllipticFlowDQM
  *
  *  DQM Physics Module for Heavy Ion Flow group
  *
@@ -20,14 +20,14 @@ class DQMStore;
 class MonitorElement;
 
 
-class HIFlowDQM : public edm::EDAnalyzer {
+class EllipticFlowDQM : public edm::EDAnalyzer {
  public:
 
   /// Constructor
-  HIFlowDQM(const edm::ParameterSet&);
+  EllipticFlowDQM(const edm::ParameterSet&);
   
   /// Destructor
-  virtual ~HIFlowDQM();
+  virtual ~EllipticFlowDQM();
   
   /// Inizialize parameters for histo binning
   void beginJob();

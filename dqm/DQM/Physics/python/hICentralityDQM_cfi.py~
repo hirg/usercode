@@ -1,0 +1,8 @@
+import FWCore.ParameterSet.Config as cms
+
+hiCentralityDQM = cms.EDAnalyzer("HiCentralityDQM",
+#                                  hiCentrality = cms.untracked.InputTag("hiCentrality")
+#   disable all warnings
+#    maxNumWarnings = cms.int32(0)
+)
+
