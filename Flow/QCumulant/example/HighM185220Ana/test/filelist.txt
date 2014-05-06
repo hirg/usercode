@@ -1,0 +1,5 @@
+/mnt/hadoop/cms/store/user/davidlw/PAHighPt/PA2013_FlowCorr_PromptReco_TrkHM_PURej2Sigma_v3/5044fac50d75acdd04581c0fc7727c77/pPb_HM_1000_1_BAw.root
+/mnt/hadoop/cms/store/user/davidlw/PAHighPt/PA2013_FlowCorr_PromptReco_TrkHM_PURej2Sigma_v3/5044fac50d75acdd04581c0fc7727c77/pPb_HM_1001_1_xq1.root
+/mnt/hadoop/cms/store/user/davidlw/PAHighPt/PA2013_FlowCorr_PromptReco_TrkHM_PURej2Sigma_v3/5044fac50d75acdd04581c0fc7727c77/pPb_HM_1002_1_B1z.root
+/mnt/hadoop/cms/store/user/davidlw/PAHighPt/PA2013_FlowCorr_PromptReco_TrkHM_PURej2Sigma_v3/5044fac50d75acdd04581c0fc7727c77/pPb_HM_1003_1_0Au.root
+/mnt/hadoop/cms/store/user/davidlw/PAHighPt/PA2013_FlowCorr_PromptReco_TrkHM_PURej2Sigma_v3/5044fac50d75acdd04581c0fc7727c77/pPb_HM_1004_1_KtB.root

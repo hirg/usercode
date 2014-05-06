@@ -1,0 +1,12 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="root"/>
+<use name="FWCore/Common"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="DataFormats/TrackReco"/>
+<use name="DataFormats/VertexReco"/>
+<use name="FWCore/ServiceRegistry"/>
+<use name="DataFormats/HeavyIonEvent"/>
+<flags EDM_PLUGIN="1"/>
+
