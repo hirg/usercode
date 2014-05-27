@@ -1,4 +1,4 @@
-#include "./root_setting.h"
+#include "./root_setting.h" 
 
 static const int nColor = 7;
 
